@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #606470;
+    /* background-color: #606470; */
 }
 .graph{
     width:45%;
