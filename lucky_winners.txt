@@ -1,0 +1,87 @@
+Matchups Sorted by Winning Team's Points
+==================================================
+ Week                          Winner                           Loser  Winner Points  Loser Points
+    9                       IglooGate   Make America HAWK TUAH Again!         160.70        101.12
+   11                  LIONS RAHHHHHH      Elizabeth's Energetic Team         156.70         91.84
+    3 Five Nights at Fantasy Football      Elizabeth's Energetic Team         155.10        110.36
+    4                  LIONS RAHHHHHH                        Big TDs          153.88         65.18
+    8       Ship of Theseus ahhh team  ET PHONE HOM'S BEST TEAM EVER          150.00        100.94
+    4                       IglooGate       Ship of Theseus ahhh team         146.32        100.24
+   12                       IglooGate          McKneeSurgeryTmrwffrey         142.68        114.50
+    3                       IglooGate             Tua Turndaballovala         138.38         69.18
+    7                       IglooGate               Run the Dang Ball         137.64        117.56
+    7                        Big TDs                       Will Clapp         136.60         72.44
+    8               Run the Dang Ball                          Vdawgs         135.24         94.02
+    5               Run the Dang Ball                        Big TDs          134.80         88.10
+    8                        Big TDs    Make America HAWK TUAH Again!         134.28        110.60
+    3  ET PHONE HOM'S BEST TEAM EVER           McKneeSurgeryTmrwffrey         133.54        112.70
+    7 Five Nights at Fantasy Football       Ship of Theseus ahhh team         132.78        106.50
+    2       Ship of Theseus ahhh team                  LIONS RAHHHHHH         131.30         81.78
+   11                        Big TDs           McKneeSurgeryTmrwffrey         128.10        105.14
+    4  ET PHONE HOM'S BEST TEAM EVER       Elizabeth's Energetic Team         125.16         84.22
+    2                        Big TDs              Tua Turndaballovala         124.64         77.06
+    6      Elizabeth's Energetic Team               Run the Dang Ball         123.96         97.56
+    1                      Will Clapp      Elizabeth's Energetic Team         123.96        104.36
+    9               Run the Dang Ball                      Will Clapp         123.80         88.94
+   10          McKneeSurgeryTmrwffrey                  LIONS RAHHHHHH         121.32         92.30
+   10                       IglooGate Five Nights at Fantasy Football         120.40         74.84
+    1 Five Nights at Fantasy Football  ET PHONE HOM'S BEST TEAM EVER          120.34        115.80
+   11               Run the Dang Ball   Make America HAWK TUAH Again!         119.84        107.34
+   10                        Big TDs   ET PHONE HOM'S BEST TEAM EVER          119.72        104.90
+    8                    Chubb Scouts      Elizabeth's Energetic Team         119.42         79.46
+    5       Ship of Theseus ahhh team                      Will Clapp         118.44        111.84
+   12             Tua Turndaballovala               Run the Dang Ball         116.98        112.66
+   10       Ship of Theseus ahhh team      Elizabeth's Energetic Team         116.64         73.88
+    5             Tua Turndaballovala   Make America HAWK TUAH Again!         115.76         66.40
+   11                    Chubb Scouts             Tua Turndaballovala         115.18         96.46
+    1                       IglooGate                          Vdawgs         114.42         59.88
+    4          McKneeSurgeryTmrwffrey               Run the Dang Ball         114.38         68.52
+    6          McKneeSurgeryTmrwffrey                          Vdawgs         114.00        100.86
+    8 Five Nights at Fantasy Football                  LIONS RAHHHHHH         113.94         85.40
+    3                        Big TDs        Ship of Theseus ahhh team         113.58         66.22
+   12      Elizabeth's Energetic Team                        Big TDs          113.30         91.70
+    2          McKneeSurgeryTmrwffrey Five Nights at Fantasy Football         113.18         86.84
+    9  ET PHONE HOM'S BEST TEAM EVER                   LIONS RAHHHHHH         113.08         94.00
+    6                  LIONS RAHHHHHH                      Will Clapp         112.60         99.18
+    7                          Vdawgs      Elizabeth's Energetic Team         112.54         84.34
+   11                       IglooGate  ET PHONE HOM'S BEST TEAM EVER          111.88         80.04
+    6       Ship of Theseus ahhh team   Make America HAWK TUAH Again!         111.80         90.26
+    6                        Big TDs                        IglooGate         111.16         83.32
+    6  ET PHONE HOM'S BEST TEAM EVER                     Chubb Scouts         110.52         75.20
+    2   Make America HAWK TUAH Again!      Elizabeth's Energetic Team         110.46         67.82
+    5 Five Nights at Fantasy Football                    Chubb Scouts         110.14         74.84
+    4 Five Nights at Fantasy Football                          Vdawgs         110.00         75.10
+   11       Ship of Theseus ahhh team                          Vdawgs         108.90         93.98
+    6 Five Nights at Fantasy Football             Tua Turndaballovala         108.80         74.50
+    5          McKneeSurgeryTmrwffrey      Elizabeth's Energetic Team         108.74        100.92
+    9                    Chubb Scouts                          Vdawgs         108.50         82.74
+    8                       IglooGate                      Will Clapp         107.86         96.20
+    1   Make America HAWK TUAH Again!          McKneeSurgeryTmrwffrey         106.68         65.02
+   10   Make America HAWK TUAH Again!                      Will Clapp         106.68         76.68
+    8          McKneeSurgeryTmrwffrey             Tua Turndaballovala         106.12        101.20
+    2               Run the Dang Ball  ET PHONE HOM'S BEST TEAM EVER          105.82         94.00
+   12  ET PHONE HOM'S BEST TEAM EVER                       Will Clapp         105.32         83.58
+    1                  LIONS RAHHHHHH             Tua Turndaballovala         104.48         78.64
+    9                        Big TDs  Five Nights at Fantasy Football         101.96         82.18
+    1                        Big TDs                     Chubb Scouts         100.98         95.18
+    5                  LIONS RAHHHHHH                       IglooGate         100.58         96.52
+   12 Five Nights at Fantasy Football   Make America HAWK TUAH Again!          98.56         96.66
+    9       Ship of Theseus ahhh team          McKneeSurgeryTmrwffrey          98.30         86.98
+    2                       IglooGate                    Chubb Scouts          98.18         91.06
+   12                  LIONS RAHHHHHH                          Vdawgs          96.86         71.48
+   11                      Will Clapp Five Nights at Fantasy Football          95.78         80.84
+    2                          Vdawgs                      Will Clapp          94.32         87.60
+   12       Ship of Theseus ahhh team                    Chubb Scouts          93.46         92.40
+    7                  LIONS RAHHHHHH   Make America HAWK TUAH Again!          92.30         71.26
+    9             Tua Turndaballovala      Elizabeth's Energetic Team          91.04         69.66
+    4                      Will Clapp             Tua Turndaballovala          88.50         61.92
+    7                    Chubb Scouts          McKneeSurgeryTmrwffrey          85.62         71.66
+    7  ET PHONE HOM'S BEST TEAM EVER              Tua Turndaballovala          83.40         77.28
+    1       Ship of Theseus ahhh team               Run the Dang Ball          82.28         76.82
+    5                          Vdawgs  ET PHONE HOM'S BEST TEAM EVER           81.86         73.06
+   10                    Chubb Scouts               Run the Dang Ball          81.60         76.08
+    3   Make America HAWK TUAH Again!                          Vdawgs          80.38         72.48
+    3                      Will Clapp                    Chubb Scouts          79.10         78.82
+   10             Tua Turndaballovala                          Vdawgs          73.32         53.74
+    3                  LIONS RAHHHHHH               Run the Dang Ball          66.36         36.44
+    4   Make America HAWK TUAH Again!                    Chubb Scouts          64.94         53.00
