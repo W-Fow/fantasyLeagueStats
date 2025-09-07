@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    text-align: center;
+    background-color: #323643; /* Dark background */
+    color: #f7f7f7; /* Light gray text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh; /* Make sure the body takes full height */
+}
+
+/* Header Styling */
+header {
+    padding: 20px 20px;
+    margin-bottom: 30px; /* Add space between header and images */
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #93deff; /* Light blue accent */
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #606470; /* Medium gray for subtitle */
+    margin-bottom: 20px;
+}
+
+/* Image Section */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%; /* Full width */
+    padding: 0 20px;
+}
+
+.responsive-image {
+    width: 48%; /* Takes up a bit less than half of the container */
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #606470; /* Medium gray border */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Buttons Section */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px auto; /* Add space above and below the buttons */
+    flex-wrap: wrap;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #93deff; /* Light blue accent */
+    color: #323643; /* Dark background for text */
+    padding: 12px 25px; /* Larger padding for a better button size */
+    border-radius: 5px;
+    font-size: 1.2rem; /* Slightly larger text */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover {
+    background-color: #606470; /* Medium gray on hover */
+    color: #f7f7f7; /* Lightest gray text on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* Stacks images vertically */
+        padding: 0 10px; /* Adjust padding on smaller screens */
+    }
+
+    .responsive-image {
+        width: 100%; /* Images take up full width on smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .button {
+        width: 90%; /* Make buttons wider on smaller screens */
+    }
+}
