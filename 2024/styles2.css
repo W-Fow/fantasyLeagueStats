@@ -103,3 +103,29 @@ header {
         width: 90%; /* Make buttons wider on smaller screens */
     }
 }
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background-color: #93deff; /* Matches your button theme */
+    color: #323643; /* Dark text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-button:hover {
+    background-color: #606470;
+    color: #f7f7f7;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Make sure the header is positioned relative for absolute positioning */
+header {
+    position: relative;
+}
