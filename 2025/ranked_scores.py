@@ -69,7 +69,7 @@ with open("tables/team_points.html", "w") as f:
     </head>
     <body>
         <div class="container">
-            <a href="../index.html" class="back-button">Home</a>
+            <a href="../../index.html" class="back-button">Home</a>
             <h1>Fantasy Ranked Scores</h1>
             <p class="byline">Sorted from highest to lowest total points</p>
             {html_table_scores}
@@ -152,7 +152,7 @@ with open("tables/close_games.html", "w") as f:
     </head>
     <body>
         <div class="container">
-            <a href="../index.html" class="back-button">Home</a>
+            <a href="../../index.html" class="back-button">Home</a>
             <h1>Fantasy Closest Games</h1>
             <p class="byline">Games with the smallest score differences</p>
             {html_table_closest}
