@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fantasy Closest Games 2026</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-button"><i class="fas fa-home"></i></a>
+
+    <h1>Fantasy Closest Games</h1>
+    <p class="byline">Games with the smallest score differences</p>
+
+    <div class="table-wrap">
+      <table class="points-table">
+        <thead>
+          <tr>
+            <th>Week</th>
+            <th>Winning Team</th>
+            <th>Losing Team</th>
+            <th>Winning Score</th>
+            <th>Losing Score</th>
+            <th>Score Difference</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../data.js"></script>
+  <script>
+    const games = LEAGUE_DATA.matchups.map(m => {
+      const homeWon = m.home_score >= m.away_score;   // ties show the home team first
+      const isTie = m.home_score === m.away_score;
+
+      const winner = homeWon ? m.home : m.away;
+      const loser  = homeWon ? m.away : m.home;
+      const winScore  = homeWon ? m.home_score : m.away_score;
+      const loseScore = homeWon ? m.away_score : m.home_score;
+
+      return {
+        week: m.week,
+        winner: isTie ? `${m.home} (tie)` : winner,
+        loser: isTie ? m.away : loser,
+        winScore,
+        loseScore,
+        diff: Math.abs(m.home_score - m.away_score)
+      };
+    });
+
+    // Smallest margin first, then earlier weeks first
+    games.sort((a, b) => a.diff - b.diff || a.week - b.week);
+
+    document.getElementById('rows').innerHTML = games
+      .map(g => `<tr>
+        <td>${g.week}</td>
+        <td>${g.winner}</td>
+        <td>${g.loser}</td>
+        <td>${g.winScore.toFixed(1)}</td>
+        <td>${g.loseScore.toFixed(1)}</td>
+        <td>${g.diff.toFixed(1)}</td>
+      </tr>`)
+      .join('');
+  </script>
+</body>
+</html>

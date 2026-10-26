@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fantasy Ranked Scores 2026</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-button"><i class="fas fa-home"></i></a>
+
+    <h1>Fantasy Ranked Scores</h1>
+    <p class="byline">Sorted from highest to lowest weekly score</p>
+
+    <div class="table-wrap">
+      <table class="points-table">
+        <thead>
+          <tr><th>Week</th><th>Team</th><th>Points</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../data.js"></script>
+  <script>
+    // One row per team per completed week
+    const rows = [];
+    LEAGUE_DATA.teams.forEach(team => {
+      team.weekly.forEach((points, i) => {
+        rows.push({ week: i + 1, team: team.name, points });
+      });
+    });
+
+    rows.sort((a, b) => b.points - a.points);
+
+    document.getElementById('rows').innerHTML = rows
+      .map(r => `<tr><td>${r.week}</td><td>${r.team}</td><td>${r.points.toFixed(1)}</td></tr>`)
+      .join('');
+  </script>
+</body>
+</html>

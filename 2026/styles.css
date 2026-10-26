@@ -1,0 +1,161 @@
+/* ===== Base styles ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #fff1e0, #fffaf5);
+    color: #3d2611;
+}
+
+h1 {
+    text-align: center;
+    color: #c2410c;
+    margin-bottom: 5px;
+}
+
+p.byline {
+    text-align: center;
+    font-style: italic;
+    color: #b45309;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background: #d35400;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    font-size: 18px;
+}
+.back-button:hover {
+    background: #a84300;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-buttons {
+    margin-top: 40px;
+    text-align: center;
+}
+.nav-button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px;
+    background: #d35400;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+.nav-button:hover {
+    background: #a84300;
+    transform: translateY(-2px);
+}
+
+/* ===== Chart cards ===== */
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.card h2 {
+    margin: 0 0 4px;
+    font-size: 1.1rem;
+    color: #c2410c;
+}
+.card p.hint {
+    margin: 0 0 12px;
+    font-size: 0.85rem;
+    color: #7c5a3a;
+}
+
+.chart-box {
+    position: relative;
+    width: 100%;
+    height: 320px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;   /* prevents iOS zoom on focus */
+    border-radius: 8px;
+    border: 1px solid #f0b98a;
+    margin-bottom: 12px;
+    background: #fff;
+}
+
+@media (max-width: 600px) {
+    body { padding: 12px; }
+    h1 { font-size: 1.6rem; }
+    .chart-box { height: 280px; }
+}
+
+/* ===== Tables ===== */
+.table-wrap {
+    overflow-x: auto;          /* lets wide tables scroll on phones */
+    margin-bottom: 24px;
+}
+.points-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-size: 15px;
+}
+.points-table th,
+.points-table td {
+    border: 1px solid #f0d5b8;
+    padding: 10px;
+    text-align: center;
+}
+.points-table th {
+    background: #d35400;
+    color: white;
+    font-weight: 600;
+}
+.points-table tr:nth-child(even) {
+    background-color: #fff6ec;
+}
+
+/* ===== Standings grid ===== */
+.rank-grid {
+    border-collapse: collapse;
+    font-size: 13px;
+    width: 100%;
+}
+.rank-grid th,
+.rank-grid td {
+    border: 1px solid #f0d5b8;
+    padding: 6px 4px;
+    text-align: center;
+    min-width: 36px;
+}
+.rank-grid th {
+    background: #fff6ec;
+    color: #c2410c;
+    font-weight: 600;
+}
+.rank-grid .team-col {
+    text-align: left;
+    white-space: nowrap;
+    min-width: 120px;
+    position: sticky;      /* team names stay visible while scrolling sideways */
+    left: 0;
+    background: #fff;
+    z-index: 1;
+}
