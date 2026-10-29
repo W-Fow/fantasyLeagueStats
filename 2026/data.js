@@ -1,7 +1,7 @@
 window.LEAGUE_DATA = {
   "season": 2026,
-  "completed_weeks": 6,
-  "updated": "2026-10-25 21:36",
+  "completed_weeks": 7,
+  "updated": "2026-10-29 17:56",
   "teams": [
     {
       "id": 1,
@@ -12,7 +12,8 @@ window.LEAGUE_DATA = {
         127.1,
         113.3,
         132.1,
-        60.9
+        60.9,
+        142.3
       ],
       "weekly_against": [
         98.9,
@@ -20,7 +21,8 @@ window.LEAGUE_DATA = {
         88.7,
         152.3,
         153.9,
-        105.0
+        105.0,
+        109.2
       ]
     },
     {
@@ -32,7 +34,8 @@ window.LEAGUE_DATA = {
         88.8,
         86.4,
         91.1,
-        42.5
+        42.5,
+        82.4
       ],
       "weekly_against": [
         127.1,
@@ -40,7 +43,8 @@ window.LEAGUE_DATA = {
         103.8,
         96.5,
         72.5,
-        95.8
+        95.8,
+        73.7
       ]
     },
     {
@@ -52,7 +56,8 @@ window.LEAGUE_DATA = {
         103.8,
         103.2,
         122.1,
-        85.1
+        85.1,
+        97.5
       ],
       "weekly_against": [
         119.0,
@@ -60,7 +65,8 @@ window.LEAGUE_DATA = {
         88.8,
         102.3,
         90.7,
-        112.3
+        112.3,
+        116.6
       ]
     },
     {
@@ -72,7 +78,8 @@ window.LEAGUE_DATA = {
         120.6,
         152.3,
         107.7,
-        95.8
+        95.8,
+        73.2
       ],
       "weekly_against": [
         109.8,
@@ -80,7 +87,8 @@ window.LEAGUE_DATA = {
         112.1,
         113.3,
         150.6,
-        42.5
+        42.5,
+        63.8
       ]
     },
     {
@@ -92,7 +100,8 @@ window.LEAGUE_DATA = {
         125.1,
         98.6,
         122.7,
-        88.9
+        88.9,
+        109.2
       ],
       "weekly_against": [
         109.0,
@@ -100,7 +109,8 @@ window.LEAGUE_DATA = {
         96.3,
         98.9,
         95.2,
-        97.2
+        97.2,
+        142.3
       ]
     },
     {
@@ -112,7 +122,8 @@ window.LEAGUE_DATA = {
         93.1,
         131.1,
         127.9,
-        105.0
+        105.0,
+        123.2
       ],
       "weekly_against": [
         89.5,
@@ -120,7 +131,8 @@ window.LEAGUE_DATA = {
         66.7,
         112.0,
         148.6,
-        60.9
+        60.9,
+        113.2
       ]
     },
     {
@@ -132,7 +144,8 @@ window.LEAGUE_DATA = {
         103.5,
         104.9,
         153.9,
-        106.8
+        106.8,
+        63.8
       ],
       "weekly_against": [
         117.1,
@@ -140,7 +153,8 @@ window.LEAGUE_DATA = {
         90.8,
         76.7,
         132.1,
-        131.4
+        131.4,
+        73.2
       ]
     },
     {
@@ -152,7 +166,8 @@ window.LEAGUE_DATA = {
         90.8,
         112.0,
         95.2,
-        112.3
+        112.3,
+        117.4
       ],
       "weekly_against": [
         122.1,
@@ -160,7 +175,8 @@ window.LEAGUE_DATA = {
         103.5,
         131.1,
         122.7,
-        85.1
+        85.1,
+        72.7
       ]
     },
     {
@@ -172,7 +188,8 @@ window.LEAGUE_DATA = {
         88.7,
         96.5,
         150.6,
-        131.4
+        131.4,
+        113.2
       ],
       "weekly_against": [
         124.4,
@@ -180,7 +197,8 @@ window.LEAGUE_DATA = {
         127.1,
         86.4,
         107.7,
-        106.8
+        106.8,
+        123.2
       ]
     },
     {
@@ -192,7 +210,8 @@ window.LEAGUE_DATA = {
         96.3,
         102.3,
         72.5,
-        99.8
+        99.8,
+        72.7
       ],
       "weekly_against": [
         66.8,
@@ -200,7 +219,8 @@ window.LEAGUE_DATA = {
         125.1,
         103.2,
         91.1,
-        87.4
+        87.4,
+        117.4
       ]
     },
     {
@@ -212,7 +232,8 @@ window.LEAGUE_DATA = {
         112.1,
         76.7,
         148.6,
-        97.2
+        97.2,
+        116.6
       ],
       "weekly_against": [
         114.9,
@@ -220,7 +241,8 @@ window.LEAGUE_DATA = {
         120.6,
         104.9,
         127.9,
-        88.9
+        88.9,
+        97.5
       ]
     },
     {
@@ -232,7 +254,8 @@ window.LEAGUE_DATA = {
         66.7,
         98.9,
         90.7,
-        87.4
+        87.4,
+        73.7
       ],
       "weekly_against": [
         108.0,
@@ -240,94 +263,95 @@ window.LEAGUE_DATA = {
         93.1,
         98.6,
         122.1,
-        99.8
+        99.8,
+        82.4
       ]
     }
   ],
   "standings": [
     {
-      "name": "LaPorta Potty",
-      "wins": 4,
+      "name": "Likely to Ceedees TDs",
+      "wins": 5,
       "losses": 2,
-      "points_for": 687.4,
-      "points_against": 614.0
+      "points_for": 785.9,
+      "points_against": 719.5
+    },
+    {
+      "name": "LaPorta Potty",
+      "wins": 5,
+      "losses": 2,
+      "points_for": 760.6,
+      "points_against": 677.8
+    },
+    {
+      "name": "I \u2764\ufe0f Bijan Robinson",
+      "wins": 4,
+      "losses": 3,
+      "points_for": 789.7,
+      "points_against": 794.4
     },
     {
       "name": "Full Chubb",
       "wins": 4,
-      "losses": 2,
-      "points_for": 668.5,
-      "points_against": 571.7
+      "losses": 3,
+      "points_for": 777.7,
+      "points_against": 713.9
+    },
+    {
+      "name": "Drake and Josh",
+      "wins": 4,
+      "losses": 3,
+      "points_for": 769.2,
+      "points_against": 744.8
     },
     {
       "name": "JetsLover67",
       "wins": 4,
-      "losses": 2,
-      "points_for": 665.5,
-      "points_against": 629.1
-    },
-    {
-      "name": "Likely to Ceedees TDs",
-      "wins": 4,
-      "losses": 2,
-      "points_for": 662.7,
-      "points_against": 606.3
+      "losses": 3,
+      "points_for": 729.3,
+      "points_against": 702.3
     },
     {
       "name": "Big Chunangai",
       "wins": 3,
-      "losses": 3,
-      "points_for": 679.5,
-      "points_against": 671.7
+      "losses": 4,
+      "points_for": 792.7,
+      "points_against": 794.9
     },
     {
-      "name": "Drake and Josh",
+      "name": "Welcome To Williamsburg",
       "wins": 3,
-      "losses": 3,
-      "points_for": 652.7,
-      "points_against": 647.3
-    },
-    {
-      "name": "I \u2764\ufe0f Bijan Robinson",
-      "wins": 3,
-      "losses": 3,
-      "points_for": 647.4,
-      "points_against": 685.2
+      "losses": 4,
+      "points_for": 737.9,
+      "points_against": 740.2
     },
     {
       "name": "I Can't Find McConkeys",
       "wins": 3,
-      "losses": 3,
-      "points_for": 616.8,
-      "points_against": 560.1
+      "losses": 4,
+      "points_for": 689.4,
+      "points_against": 677.5
     },
     {
       "name": "Five Nights at Fantasy 3",
       "wins": 3,
-      "losses": 3,
-      "points_for": 578.7,
-      "points_against": 619.1
-    },
-    {
-      "name": "Welcome To Williamsburg",
-      "wins": 2,
       "losses": 4,
-      "points_for": 620.5,
-      "points_against": 667.5
+      "points_for": 676.2,
+      "points_against": 735.7
     },
     {
       "name": "Brown and downs ",
       "wins": 2,
-      "losses": 4,
-      "points_for": 534.5,
-      "points_against": 651.4
+      "losses": 5,
+      "points_for": 608.2,
+      "points_against": 733.8
     },
     {
       "name": "Flirty, Purdy + Thriving",
-      "wins": 1,
+      "wins": 2,
       "losses": 5,
-      "points_for": 504.2,
-      "points_against": 594.9
+      "points_for": 586.6,
+      "points_against": 668.6
     }
   ],
   "matchups": [
@@ -617,6 +641,54 @@ window.LEAGUE_DATA = {
       "home_score": 97.2,
       "away": "Full Chubb",
       "away_score": 88.9,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "home": "Brown and downs ",
+      "home_score": 73.7,
+      "away": "Flirty, Purdy + Thriving",
+      "away_score": 82.4,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "home": "LaPorta Potty",
+      "home_score": 73.2,
+      "away": "JetsLover67",
+      "away_score": 63.8,
+      "winner": "HOME"
+    },
+    {
+      "week": 7,
+      "home": "I Can't Find McConkeys",
+      "home_score": 72.7,
+      "away": "Welcome To Williamsburg",
+      "away_score": 117.4,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "home": "Big Chunangai",
+      "home_score": 113.2,
+      "away": "Likely to Ceedees TDs",
+      "away_score": 123.2,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "home": "Five Nights at Fantasy 3",
+      "home_score": 97.5,
+      "away": "Drake and Josh",
+      "away_score": 116.6,
+      "winner": "AWAY"
+    },
+    {
+      "week": 7,
+      "home": "I \u2764\ufe0f Bijan Robinson",
+      "home_score": 142.3,
+      "away": "Full Chubb",
+      "away_score": 109.2,
       "winner": "HOME"
     }
   ],
