@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>League Stats 2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    /* Stats-page extras (kept here so styles.css stays untouched) */
+    .luck-pos { color: #15803d; font-weight: 600; }
+    .luck-neg { color: #b91c1c; font-weight: 600; }
+    .points-table td.team-name { text-align: left; }
+    .explain { font-size: 0.9rem; color: #7c5a3a; line-height: 1.5; margin: 0 0 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i></a>
+
+    <h1>2026 Stats</h1>
+    <p class="byline">Expected wins and luck</p>
+
+    <!-- Expected wins table -->
+    <div class="card">
+      <h2>Expected Wins</h2>
+      <p class="explain">
+        Each week, a team gets credit for every other team it outscored (ties count 0.5),
+        divided by the number of opponents (N &minus; 1). Those weekly values are summed.
+        Luck is actual wins minus expected wins.
+      </p>
+      <div class="table-wrap">
+        <table class="points-table" id="expectedTable"></table>
+      </div>
+    </div>
+
+    <!-- Luck chart -->
+    <div class="card">
+      <h2>Luck</h2>
+      <p class="hint">Actual wins minus expected wins. Positive means more wins than the scores deserved.</p>
+      <div class="chart-box">
+        <canvas id="luckChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Actual vs expected chart -->
+    <div class="card">
+      <h2>Actual vs Expected Wins</h2>
+      <p class="hint">Sorted by expected wins</p>
+      <div class="chart-box">
+        <canvas id="winsChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="stats.js"></script>
+</body>
+</html>
